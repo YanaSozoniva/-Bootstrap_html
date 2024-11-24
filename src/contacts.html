@@ -8,7 +8,38 @@
 </head>
 <body>
 <div class="row"> <!-- Основной блок для работы с колонками -->
-     <div class="col-2"></div>
+     <div class="col-2">
+          <div  data-bs-theme="dark">
+            <div class="card" style="width: 100%; height: 950px">
+                <div class="p-3 mb-2 bg-black text-white">
+                  <div class="card-header">
+                      <img src="/img/bootstrap-logo-white.svg" alt="Logo" width="30" height="24"
+                           class="d-inline-block align-text-top">
+                    Меню
+                  </div>
+
+                 <div class="list-group">
+                     <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
+                        Главная
+                      </button>
+                      <button type="button" class="list-group-item list-group-item-action">Категории</button>
+                      <button type="button" class="list-group-item list-group-item-action">Заказы</button>
+                      <button type="button" class="list-group-item list-group-item-action">Контакты</button>
+                 </div>
+               </div>
+
+                  <div class="fixed-bottom">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Пользователь
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Профиль</a></li>
+                        <li><a class="dropdown-item" href="#">Выход</a></li>
+                      </ul>
+                   </div>
+            </div>
+          </div>
+     </div>
      <div class="col-10">
          <div class="position-absolute top-50 start-50 translate-middle">
              <h1> <p class="text-center">Контакты</p> </h1>
